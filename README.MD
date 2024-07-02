@@ -50,7 +50,7 @@ AI Secretary is an intelligent productivity assistant that helps you manage task
 1. **Run the AI Secretary:**
 
     ```sh
-    python3 daily_assistant.py
+    python3 ai_secretary.py
     ```
 
 2. **Interact with the Assistant:**
@@ -67,7 +67,7 @@ AI Secretary is an intelligent productivity assistant that helps you manage task
 
 ## Code Overview
 
-- `daily_assistant.py`: Main script for running the AI Secretary.
+- `ai_secretary.py`: Main script for running the AI Secretary.
 - `TaskWarriorIntegration`: Class for interacting with TaskWarrior.
 - `ActionExecutor`: Class for executing actions based on user intents.
 - `correct_time_format`: Function for correcting non-standard time formats using LLM.
